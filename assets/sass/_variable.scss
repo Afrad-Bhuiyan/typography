@@ -1,0 +1,43 @@
+
+
+//SCSS Veriables
+$primary-color:red;
+$secondary-color:green;
+$white-color:#FDFDFD;
+$black-color:#232323;
+$heading-root:5;
+$h1-size: #{$heading-root / 100 * 100 + rem};
+$h2-size: #{$heading-root / 100 * 75 + rem};
+$h3-size: #{$heading-root / 100 * 60 + rem};
+$h4-size: #{$heading-root / 100 * 50 + rem};
+$h5-size: #{$heading-root / 100 * 40 + rem};
+$h6-size: #{$heading-root / 100 * 35 + rem};
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$font-family:'Poppins', sans-serif;
+
+
+//CSS Veriables
+:root{
+  
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --white-color: #{$white-color};
+    --black-color: #{$black-color};
+    --h1-size: #{$h1-size};
+    --h2-size: #{$h2-size};
+    --h3-size: #{$h3-size};
+    --h4-size: #{$h4-size};
+    --h5-size: #{$h5-size};
+    --h6-size: #{$h6-size};
+    --breakpoint-xs: #{$breakpoint-xs};
+    --breakpoint-sm: #{$breakpoint-sm};
+    --breakpoint-md: #{$breakpoint-md};
+    --breakpoint-lg: #{$breakpoint-lg};
+    --breakpoint-xl: #{$breakpoint-xl};
+    --font-family: #{$font-family};
+    
+}
